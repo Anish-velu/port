@@ -1,0 +1,136 @@
+body, html {
+  height: 100%; 
+  margin: 0; 
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50%;
+}
+
+.avatar-status-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    margin-top: 79px;
+    border:3px solid rgb(37, 175, 255);
+}
+
+.avatar-profile{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.avatar-name{
+    letter-spacing: 1.9px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.avatar-degree{
+    letter-spacing: -0.5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    margin-top: -15px;
+}
+
+.custom-button{
+    padding: 5px 5px 5px 5px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+ cursor: none;
+
+    font-weight: bold;
+}
+
+.custom-button-cv{
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    background-color: rgb(50, 177, 250);
+    border-color: rgb(50, 177, 250);
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+     cursor: none;
+    margin: 0 7px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.custom-button-extn{
+   padding: 5px 5px 5px 5px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    width: 30px;
+    cursor: none;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+/* ================highlights-section================ */
+
+.highlights-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+   cursor: none;
+}
+
+.highlights img{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.highlights p{
+    font-size: 10px;
+    color: grey;
+    font-weight: bold;
+    margin-top: 2px;    
+}
+
+.status-circle{
+    height: 51px;
+    width: 51.5px;
+    border-radius: 50%;
+    margin-top: -52px;
+    border: 2.99px solid rgb(37, 175, 255);
+}
+
+
+
+
+
+/* ================Switch-section================ */
+
+
+

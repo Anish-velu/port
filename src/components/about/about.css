@@ -1,0 +1,200 @@
+.aboutMe{
+    display: flex;
+    width: 80%;
+    position: absolute;
+
+    left: 10%;
+
+}
+
+.aboutMe img{
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+
+.dataContainer{
+    display: flex;
+margin-top: 100px;
+margin: 20px;
+    width: 300px;
+    height: 150px;
+    border: 5px black;
+    border-radius: 25px;
+    background-color: red;
+}
+
+.profile-details {
+    flex-grow: 1;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experience-education {
+    display: flex;
+    gap: 20px;
+     margin-top: 7%;
+}
+
+.experience,
+.education {
+    background-color: #ededed;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #333;
+}
+
+.text p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+    margin-top: -30%;
+}
+
+/* ============get in touch=============== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.get-in-touch {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.contact-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+
+
+/* ------------------------- */
+
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 20px;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 25px;
+  height: 100%;
+  object-fit: cover;
+  border: 20px;
+}
+
+.viewmorebtn {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.viewmorebtn:hover {
+  border: 1px solid rgb(202, 199, 199);
+  border-radius: 20px;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 0; /* Reduce padding for mobile view */
+  }
+
+  .photo img {
+    border-radius: 15px; /* Reduce border radius for mobile view */
+    max-width: 100%; /* Set maximum width for mobile view */
+    height: auto; /* Allow image height to adjust proportionally */
+  }
+
+  .photo-gallery {
+    flex-direction: column; /* Stack columns vertically on mobile view */
+  }
+
+  .column {
+    border: none;
+    display: flex;
+    width: 332px;
+      justify-content: center;
+      align-items: center; /* Remove border for mobile view */
+  }
+
+  .viewmorebtn {
+    padding: 20px; /* Reduce padding for mobile view */
+  }
+}

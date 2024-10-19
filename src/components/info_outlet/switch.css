@@ -1,0 +1,33 @@
+.switch-button {
+  background-color: #f0f0f0;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer; /* Changed from none to pointer */
+  height: 55px;
+  width: 100px;
+  display: inline-block; /* Changed from inline to inline-block */
+  transition: background-color 0.3s ease-in-out;
+  font-size: 15px;
+}
+
+.switch-button:hover {
+  background-color: white;
+  border-radius: 7px;
+  height: 48px;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.holder {
+  display: flex; /* Set holder to display flex */
+  gap: 10px; /* Add some gap between buttons if needed */
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}

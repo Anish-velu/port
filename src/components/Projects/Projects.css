@@ -1,0 +1,38 @@
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: -10%;
+}
+
+.card{
+    height: 350px;
+    width: 250px;
+    background-color: #e4e4e4;
+    border-radius: 20px;
+    margin:0px 30px;
+     margin: 15px;
+}
+
+
+.card img{
+    width: 180px;
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.card h4{
+    margin-top: 10px;
+}
+
+.card button{
+    margin:0px 10px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    width: 80px;
+     background-color: #e4e4e4;
+}
+

@@ -1,0 +1,29 @@
+/* Add this to your CustomCursor.css or main CSS file */
+body {
+  cursor: none; /* Hide the default cursor */
+}
+
+
+.cursor-outer,
+.cursor-inner {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-out 0.25s; /* Adjusted for faster expand and slower decrease */
+  z-index: 999;
+}
+
+
+.cursor-outer {
+  width: 24px; /* Set to an appropriate size */
+  height: 24px; /* Set to an appropriate size */
+
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.cursor-inner {
+  width: 18px; /* Set to an appropriate size */
+  height: 18px; /* Set to an appropriate size */
+
+  transition: opacity 0.15s ease-in-out, transform 0.45s ease-in-out;
+}
