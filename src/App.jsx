@@ -11,8 +11,8 @@ function App() {
       <CustomCursor />
       <Profile />
       <Switch />
-      <Know_Me />
-      <Projects />
+      {/* <Know_Me />
+      <Projects /> */}
     </div>
   );
 }
